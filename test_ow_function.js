@@ -20,11 +20,11 @@ function main(params) {
         },
         "name": "anshul",
         "product_id": 2,
-        "mongo_host_ip": "",
+        "mongo_host_ip": "138.246.238.62",
         "db": "ccs",
         "collection": "products",
         "mongo_user": "root",
-        "mongo_pass": "",
+        "mongo_pass": "ccs_root_Pass_7631",
         
     }
     const invoke = (actionName, params) => ow.actions.invoke({ actionName, params, blocking: true });
